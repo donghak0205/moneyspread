@@ -18,16 +18,11 @@ The moneyspread is moneySpread Api project for kakao
 |**createUserId** | <center>String</center> | | 
 |**roomToken** | <center>String</center> | O | 
 |**id** | <center>varchar </center> | | 
-|**boardType** | <center>varchar </center> | |
-|**spreadMoney** | <center>datetime </center> |TIMESTAMP |
-|**receivedId** | <center>datetime </center> |TIMESTAMP | 
-|**totalMoney** | <center>datetime </center> |TIMESTAMP | 
-|**people** | <center>datetime </center> |TIMESTAMP | 
+|**boardType** | <center>int </center> | |
+|**spreadMoney** | <center>long </center> |TIMESTAMP |
+|**receivedId** | <center>String </center> |TIMESTAMP | 
+|**totalMoney** | <center>long </center> |TIMESTAMP | 
+|**people** | <center>int </center> |TIMESTAMP | 
 |**roomToken** | <center>String</center> |  | 
 |**createTime** | <center>String</center> |LocalDateTime |  | 
 
-### 3. Instructions
-> 1. The project is multi-module project. Both projects must be executed for the function.  
-     placesearch(9090: Main), placesearch-api(9091 : RestApi)  
-> 2. Accessible id is user5 ~ user9. Inaccessible id is user1~user4.    
-     All ID passwords are "1".
