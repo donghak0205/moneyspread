@@ -26,3 +26,5 @@ The moneyspread is moneySpread Api project for kakao
 |**roomToken** | <center>String</center> |  
 |**createTime** | <center>LocalDateTime</center> |
 
+### 4. Instructions
+>  The project is port(8080)
