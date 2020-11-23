@@ -12,19 +12,19 @@ The moneyspread is moneySpread Api project for kakao
 ...
 
 ### 3. DB
-|  <center>Filed Name</center> |  <center>Data Type</center> |  <center>Length</center> | <center>PK</center>  |
+|  <center>Filed Name</center> |  <center>Data Type</center> |   | <center>PK</center>  |
 |:--------|:--------:|--------:|:--------:|
-|**roomId** | <center>String </center> | | O| 
-|**createUserId** | <center>String</center> |255 | | O | 
-|**roomToken** | <center>String</center> |255 | O | 
-|**id** | <center>varchar </center> |255| | 
-|**boardType** | <center>varchar </center> |255 | |
+|**roomId** | <center>String </center> | O| 
+|**createUserId** | <center>String</center> | | O | 
+|**roomToken** | <center>String</center> | O | 
+|**id** | <center>varchar </center> | | 
+|**boardType** | <center>varchar </center> | |
 |**spreadMoney** | <center>datetime </center> |TIMESTAMP |
 |**receivedId** | <center>datetime </center> |TIMESTAMP | 
 |**totalMoney** | <center>datetime </center> |TIMESTAMP | 
 |**people** | <center>datetime </center> |TIMESTAMP | 
-|**roomToken** | <center>String</center> |255 | O | 
-|**createTime** | <center>String</center> |255 | O | 
+|**roomToken** | <center>String</center> |  | 
+|**createTime** | <center>String</center> |LocalDateTime |  | 
 
 ### 3. Instructions
 > 1. The project is multi-module project. Both projects must be executed for the function.  
