@@ -12,7 +12,7 @@ The moneyspread is moneySpread Api project for kakao
 ...
 
 ### 3. DB
-|  <center>Filed Name</center> |  <center>Data Type</center> | <center>PK</center>  |
+|  <center>Filed Name</center> |  <center>Data Type</center> | |<center>PK</center>  |
 |:--------|:--------:|--------:|:--------:|
 |**roomId** | <center>String </center> | O| 
 |**createUserId** | <center>String</center> | | O | 
